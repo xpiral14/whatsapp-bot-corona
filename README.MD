@@ -2,7 +2,7 @@
   <img width="100" height="80%" src="https://lh3.googleusercontent.com/Cu4tW4GHK6MzAxjj1vbAsWnnC5nYX4cN5YxbwPcdbFQ7GoAw0zKEPUWzTlAdHs0Iyg" alt="WhatsApp BOT"></a>
 </p>
 
-<h3 align="center">Bot WhatsApp - NodeJS TypeScript</h3>
+<h3 align="center">Bot WhatsApp Corona- NodeJS TypeScript</h3>
 
 <div align="center">
   
@@ -35,33 +35,9 @@ Após configuração, necessário atrelar aplicação ao seu WhatsApp, para isso
 
 ### 🔰 Comandos
 
-- !cotacao
-- !company
-- !turno
-
-Digite: `!cotacao` e o Bot consumirá a <a href="https://docs.awesomeapi.com.br/">API</a> de cotação das seguintes moedas: (BTC, DOLAR, EURO)
-
-<img width="600" height="100%" src="https://i.imgur.com/qrqWQ6N.png" alt="Cotação da moeda">
-
----
-
-Digite: `!turno` e o Bot consumirá uma API própria, onde colhe recursos internos da empresa 76Telecom.
-
-<img width="600" height="100%" src="https://i.imgur.com/XtZA3ha.png" alt="Passagem de turno">
-
-Comando **!turno** é de uso exclusivo, não funcionará para uso público, isso foi apenas uma demonstração.
-
----
-
-### Agradecimentos
-
-- [@pedroslopez](https://github.com/pedroslopez)
-- [@raniellyferreira](https://github.com/raniellyferreira)
-- [@76Telecom](https://76telecom.com.br/)
-
----
-
-### Contato
-
-- [LinkedIn](https://www.linkedin.com/in/caioagiani/)
-- caio.agiani14@gmail.com
+- !paises ou !ps
+- !pais ou !p seguido do prâmetro pais
+```
+  !pais pais:Brazil
+  !p pais:Brazil
+```

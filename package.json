@@ -30,11 +30,14 @@
     }
   ],
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon -r dotenv/config dist/index.js",
-    "compile": "tsc -w"
+    "start": "node dist/server.js",
+    "dev": "nodemon -r dotenv/config dist/server.js",
+    "compile": "tsc -w",
+    "debug": "node --nolazy --inspect-brk=9229 dist/server.js"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.2",
     "puppeteer": "^3.0.4",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
